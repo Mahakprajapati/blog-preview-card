@@ -1,0 +1,75 @@
+main {
+  background-color: rgb(245, 208, 78);
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Figtree", sans-serif;
+}
+
+.container {
+  max-width: 315px;
+  min-height: 430px;
+  border: 0.1em solid black;
+  border-radius: 1.5em;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  box-shadow: 0.5em 0.5em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 2em;
+}
+/* .container img{
+    border-radius: 1em;
+} */
+.image-container {
+  overflow: hidden;
+  max-width: 335px;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+}
+.container span {
+  align-self: flex-start;
+  background-color: rgb(247, 212, 77);
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0.5em;
+  font-weight: 600;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+.inner-container a {
+  text-decoration: none;
+  color: #000;
+}
+.inner-container a:hover {
+  color: rgb(238, 210, 80);
+}
+.inner-container h2 {
+  margin: 0;
+}
+.inner-container .text {
+  font-size: 1em;
+  opacity: 0.6;
+}
+
+.image-text {
+  display: flex;
+  align-items: center;
+}
+.image-text img {
+  width: 25px;
+  height: 25px;
+  margin-right: 1em;
+}
+.image-text p {
+  font-weight: 800;
+}
